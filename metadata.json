@@ -1,0 +1,6 @@
+{
+  "name": "Analisador de Processos de Licitação",
+  "description": "Um aplicativo web para analisar processos de licitação e declarações utilizando IA, com funcionalidade para exportar relatórios em PDF.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
