@@ -1,6 +1,6 @@
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = "AIzaSyCPqHo1826m6o-8tEeizAIbd2UYEsHmUrE";
 
 if (!API_KEY) {
   console.warn("CRITICAL: API_KEY environment variable (process.env.API_KEY) is not set. Gemini API calls will fail. Ensure the environment is configured correctly.");

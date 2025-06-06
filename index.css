@@ -1,0 +1,45 @@
+/* Ajustes para o body, caso queira reforçar o fundo */
+body {
+  background-color: #f1f5f9; /* bg-slate-100 do Tailwind */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Scrollbar personalizada para navegadores baseados em Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Correção para selects customizados */
+select.appearance-none {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Classe utilitária para posicionamento relativo */
+.relative_ {
+  position: relative;
+}
+
+/* Exemplo de ajuste para container principal */
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Adicione aqui outros ajustes personalizados conforme necessidade */
